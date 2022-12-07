@@ -1,5 +1,6 @@
 package com.techical.SpringMail.model.dto;
 
+import lombok.Builder;
 import lombok.Data;
 
 import java.io.File;
@@ -10,6 +11,7 @@ import java.util.List;
 import java.util.Set;
 
 @Data
+@Builder
 public class MailDTO implements Serializable {
     private String to;
 
